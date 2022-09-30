@@ -1,0 +1,94 @@
+:root {
+  --background: #5c67ff;
+  --colorBtn: #4d50fb;
+  --hcolorBtn: #2e6aaa;
+  --white: #fff;
+  --black: #162447;
+  --light: #9098a7;
+  --lgreen: #00c55c;
+  --green: #009c49;
+}
+.heading {
+  text-align: center;
+  color: var(--white);
+  font-size: 48px;
+  margin: 16px 0;
+}
+.checklistBox {
+  max-width: calc(100% - 32px);
+  padding: 16px;
+  width: 440px;
+  height: 100%;
+  margin: auto;
+  background-color: var(--white);
+}
+.checklistBox p {
+  height: 30px;
+  display: block;
+  float: left;
+  line-height: 30px;
+}
+.checklistBox input {
+  width: calc(100% - 32px);
+  padding: 16px;
+  margin: 12px 0;
+  border: none;
+  font-size: 18px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.checklistBox input:focus {
+  outline: none;
+}
+.checklistBox button {
+  display: block;
+  width: 80px;
+  height: 30px;
+  color: var(--white);
+  background-color: var(--colorBtn);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border: none;
+  font-size: 16px;
+  float: right;
+}
+.checklistBox button:hover {
+  cursor: pointer;
+}
+.all_list {
+  margin: 40px 0 20px 0;
+}
+.list_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--white);
+  padding: 12px;
+  min-height: 20px;
+  margin: 16px 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px;
+}
+.item_check {
+  font-size: 20px;
+  color: var(--light);
+  line-height: 20px;
+}
+.item_check:hover {
+  cursor: pointer;
+  color: var(--black);
+}
+.item_name {
+  width: 100%;
+  padding: 0 12px 0 8px;
+  text-align: left;
+  color: var(--black);
+  /* background-color: #009c49; */
+  display: block;
+}
+.item_cross {
+  color: var(--light);
+  font-size: 16px;
+  line-height: 20px;
+}
+.item_cross:hover {
+  color: #f55e5e;
+  cursor: pointer;
+}
